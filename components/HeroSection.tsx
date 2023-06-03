@@ -26,17 +26,10 @@ const HeroSection = () => {
             </span>
             in Vocational High School, and i'm a Computer Science Enthusiast.
           </p>
-          <Link
-            to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={500}
-          >
-            Projects
-          </Link>
+          <a href="/CV.pdf" target="blank" className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700">
+            Donwnload CV
+          </a>
+
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">

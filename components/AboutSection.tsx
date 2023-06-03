@@ -99,6 +99,20 @@ const AboutSection = () => {
               style={{ position: 'relative', left:'54px', top: '20px' }}
               //className="hidden md:block md:relative md:bottom-0 md:left-27 md:z-0 md:top-5"
             /> */}
+            <div className="mt-10">
+              <h1 className="font-bold text-2xl mb-4">Achievement</h1>
+              <div>
+                <p>
+                 • &nbsp; Bronze Medal at the <span className="font-bold text-teal-500">Malang Young Innovators</span> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="font-bold text-teal-500">Award</span> 2023 in the field of Technology. <br/>
+                  <br/>
+                 • &nbsp; Participant in the 2023 Student Competency <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Competition in the field of &nbsp;
+                 <span className="font-bold text-teal-500">
+                    Data Science
+                 </span>.
+
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
