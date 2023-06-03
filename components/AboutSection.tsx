@@ -90,7 +90,7 @@ const AboutSection = () => {
                 ))}
               </div>
             </div>
-            <Image
+            {/* <Image
               
               src="/hero-image1.png"
               alt=""
@@ -98,7 +98,7 @@ const AboutSection = () => {
               height={300}
               style={{ position: 'relative', left:'54px', top: '20px' }}
               //className="hidden md:block md:relative md:bottom-0 md:left-27 md:z-0 md:top-5"
-            />
+            /> */}
           </div>
         </div>
       </div>
