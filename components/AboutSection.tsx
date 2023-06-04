@@ -105,7 +105,7 @@ const AboutSection = () => {
                 <p>
                  • &nbsp; Bronze Medal at the <span className="font-bold text-teal-500">Malang Young Innovators</span> <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="font-bold text-teal-500">Award</span> 2023 in the field of Technology. <br/>
                   <br/>
-                 • &nbsp; Participant in the 2023 Student Competency <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Competition in the field of &nbsp;
+                 • &nbsp; Participant in the 2023 Lomba Kompetensi <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Siswa (LKS) in the field of &nbsp;
                  <span className="font-bold text-teal-500">
                     Data Science
                  </span>.
