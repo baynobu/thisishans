@@ -50,8 +50,8 @@ const ProjectsSection = () => {
                           src={project.video}
                           title={project.name}
                           allowFullScreen
-                          width={465}
-                          height={250}
+                          width={464}
+                          height={230}
                           className="rounded-xl shadow-xl hover:opacity-70"
                         />
                       </div>
@@ -121,6 +121,8 @@ const ProjectsSection = () => {
           );
         })}
       </div>
+      <br /><br /><br />
+      <p className="text-center text-sm">When the Projects doesn't show up <span className="text-teal-500">Nothing</span>, Please Check your <span className="text-teal-500">Browser Versions</span> or try to use other Browser</p>
     </section>
   );
 };
