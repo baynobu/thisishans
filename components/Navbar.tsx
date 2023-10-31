@@ -1,7 +1,7 @@
 "use client" // this is a client component
 import React from "react"
 import { useState } from "react"
-import { Link } from "react-scroll/modules"
+import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
@@ -37,7 +37,7 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home">
+            <Link href={"/home"}>
               <div className="container flex items-center space-x-2">
                 <h2 className="text-2xl font-bold">Rahman Hanif</h2>
               </div>
@@ -64,15 +64,10 @@ export default function Navbar() {
                 return (
                   <Link
                     key={idx}
-                    to={item.page}
+                    href={item.page}
                     className={
                       "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
                     }
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
                     onClick={() => setNavbar(!navbar)}
                   >
                     {item.label}

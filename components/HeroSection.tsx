@@ -1,7 +1,7 @@
 "use client" // this is a client component
 import React from "react"
 import Image from "next/image"
-import { Link } from "react-scroll"
+import Link from "next/link"
 import { HiArrowDown } from "react-icons/hi"
 
 const HeroSection = () => {
@@ -31,6 +31,11 @@ const HeroSection = () => {
           </a>
 
         </div>
+      </div>
+      <div className="flex flex-row items-center text-center justify-center ">
+        <Link href={"/about"}>
+          <HiArrowDown size={35} className="animate-bounce" />
+        </Link>
       </div>
     </section>
   )
