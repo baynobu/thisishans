@@ -5,18 +5,19 @@ const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
+  { skill: "NodeJS" },
   { skill: "Python" },
   { skill: "Java" },
   { skill: "MySQL" },
   { skill: "VR Development" },
   { skill: "Game Development" },
   { skill: "Jupyter Notebooks" },
-  { skill: "Data Science" }
+  { skill: "Data Science" },
 ];
 
 const AboutSection = () => {
   const basicSkills = skills.filter((skill) =>
-    ["JavaScript", "MySQL", "Python", "Jupyter Notebooks", "Data Science"].includes(skill.skill)
+    ["MySQL", "Python", "Jupyter Notebooks", "Data Science"].includes(skill.skill)
   );
 
   const intermediateSkills = skills.filter(

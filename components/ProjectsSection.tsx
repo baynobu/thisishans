@@ -28,6 +28,14 @@ const ProjectsSection = () => {
       github: "https://github.com/hqasmei/katorfamilyphotos",
       link: "https://drive.google.com/drive/folders/1DCwJKesXjl_y5Y4iYyaIRBns_FTWnLPm?usp=drive_link",
     },
+    {
+      name: "Library Website",
+      description:
+        "",
+      image: "/librarywebsite.png",
+      github: "https://github.com/baynobu/perpustakaan",
+      link: "https://github.com/baynobu/perpustakaan",
+    },
   ];
 
   return (
@@ -109,6 +117,17 @@ const ProjectsSection = () => {
                         <br />
                         <a href={project.link} className="text-teal-500 hover:underline" target="blank">
                           Download The Allien Parkour!
+                        </a>
+                        .
+                      </p>
+                    )}
+
+                    {project.name === "Library Website" && (
+                      <p className="text-base leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                        This website was built using Microservices Architecture, with the frontend using ReactJS and the backend using NodeJS.{" "}
+                        <br />
+                        <a href={project.link} className="text-teal-500 hover:underline" target="blank">
+                          Check it out!
                         </a>
                         .
                       </p>
