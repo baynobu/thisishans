@@ -45,7 +45,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-            I'm student from 12 Malang Vocational High School, and majored in Software Engineering
+            I'm student from Malang State Polytechnic, and majored in Computer Science
             </p>
             <br />
             <p>
