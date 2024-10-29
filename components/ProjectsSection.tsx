@@ -11,14 +11,14 @@ const ProjectsSection = () => {
       image: "/",
       video: "https://www.youtube.com/embed/2kyABOgFhg4",
       github: "https://github.com/hqasmei/thankful-thoughts",
-      link: "/MalangYoungInnovatorsAward-Certificate.jpg",
+      link: "https://drive.google.com/file/d/17fBlY2uTpwpP--3mUTBJ-aHgMBGgPLtp/view?usp=drive_link",
     },
     {
       name: "Data Insights: Patterns, Predictions, and Decisions",
       description: "",
       image: "/data1.png",
       github: "https://colab.research.google.com/",
-      link: "/AI_SMK NEGERI 12_ABDUL RAHMAN HANIF DARMAWAN.jpg",
+      link: "https://drive.google.com/file/d/16GYR5ziR4q3-ND_8X9xAnyHvbgitfd3N/view?usp=drive_link",
     },
     {
       name: "2D Pixel Platformer",
